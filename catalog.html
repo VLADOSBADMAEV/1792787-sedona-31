@@ -11,7 +11,8 @@
   <header>
     <nav>
       <a href="index.html">
-        <img src="logo.jpg" width="138" height="70" alt="Логотип City of Cedona">
+        <img src="C:\Microsoft VS Code\1792787-sedona-31\img\logo.svg" width="138" height="70"
+          alt="Логотип City of Cedona">
       </a>
       <ul>
         <li><a href="blank.html">Информация</a></li>
@@ -24,6 +25,7 @@
 
   <main>
     <section>
+      <img src="img\background.png" width="1200" height="217" alt="Задний фон">
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
           <legend>Инфраструктура:</legend>
@@ -57,17 +59,25 @@
             <li>
               <input type="checkbox" name="apartements" id="filter-apartements" checked>
               <label for="filter-apartements">Апартаменты</label>
-            </fieldset>
-            <fieldset>
-              <p>Стоимость в сутки</p>
-              <button type="submit">Показать</button>
             </li>
           </ul>
         </fieldset>
+        <fieldset>
+          <legend>Стоимость в сутки</legend>
+          <div class = "range">
+            От 
+            <input type = "text" id="range" value="0">
+            До
+            <input type = "text" id="range" value="3000">
+           <p>
+          <button type="submit">Показать</button>
+          </p>
+        </fieldset>
+      </form>
     </section>
 
     <section>
-      <p>Найдено: 3</p>
+      <h2>Найдено: 3</h2>
       <ul>
         <li><a href="#">По цене</a></li>
         <li><a href="#">По типу</a></li>
@@ -75,20 +85,22 @@
       </ul>
       <ul>
         <li>
-            <h2>Amara Resort & Spa</h2>
-            <p>
-              <img src="Layer 21.jpg" width="135" height="90" alt="Amara Resort & Spa">
-            </p>
+          <h2>Amara Resort & Spa</h2>
+          <p>
+            <img src="img\Layer 21 (1).jpg" width="135" height="90" alt="Amara Resort & Spa">
+          </p>
           <p>Гостиница</p>
           <p>От 4000 ₽</p>
+          <a href="product.html">Подробнее</a>
+          </a>
           <p>
-          </p>
+            <a href="product.html">Забронировать</a>
         </li>
         <li>
-            <h3>Desert Quail Inn</h3>
-            <p>
-              <img src="Layer 89 copy.jpg" width="135" height="90" alt="Desert Quail Inn">
-            </p>
+          <h3>Desert Quail Inn</h3>
+          <p>
+            <img src="img\Layer 89 copy (1).jpg" width="135" height="90" alt="Desert Quail Inn">
+          </p>
           </a>
           <p>Мотель</p>
           <p>От 3000 ₽</p>
@@ -98,10 +110,10 @@
             <a href="product.html">Забронировать</a>
         </li>
         <li>
-            <h3>Villas at Poco Diablo</h3>
-            <p>
-              <img src="Rectangle.jpg" width="135" height="90" alt="Villas at Poco Diablo">
-            </p>
+          <h3>Villas at Poco Diablo</h3>
+          <p>
+            <img src="img\Rectangle (1).jpg" width="135" height="90" alt="Villas at Poco Diablo">
+          </p>
           <p>Апартаменты</p>
           <p>ОТ 2000 ₽</p>
           <a href="product.html">Подробнее</a>
@@ -114,9 +126,10 @@
   </main>
   <footer>
     <section>
-      <a href="catalog.html">#Visitsedona</a>
-      <p></p>
-      <a href="tel:+7 800 555-86-28">7 800 555-86-28</a>
+      <p>#Visitsedona</p>
+      <a href="tel:+7 800 555-86-28">+7 800 555-86-28</a>
+    </section>
+    <section>
       <ul>
         <li>
           <a href="#">Твиттер</a>
@@ -129,14 +142,15 @@
         </li>
         </li>
       </ul>
+    </section>
+    <section>
+      <h3>Website by</h3>
       <a>
-        <h3>Website by</h3>
-      </a>
-      <a>
-        <img src="logo_htmlacademy.jpg" width="115" height="33" alt="Лого">
+        <img src="C:\Microsoft VS Code\1792787-sedona-31\img\logo_htmlacademy.svg" width="115" height="33" alt="Лого">
       </a>
     </section>
   </footer>
+
 
 
 
